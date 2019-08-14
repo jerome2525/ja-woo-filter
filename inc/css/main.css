@@ -1,0 +1,72 @@
+.loader2 {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../img/loader.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
+
+body .woocommerce ul.products li.product a img {
+	width: 203px;
+    height: 203px;
+    width: 12.6875rem;
+    height: 12.6875rem;
+    object-fit: contain;
+    margin: 0 auto 11px auto !important;
+    margin: 0 auto 0.6875rem auto !important;
+}
+
+@media (max-width: 767px) {
+	.woocommerce ul.products li.product a {
+		height: auto !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.woocommerce ul.products li.product a {
+		max-height: 300px;
+	}
+}
+
+.paginate-bg {
+	clear: both;
+}
+.paginate-bg .page-numbers {
+    border: 1px solid #ff9f40;
+    margin-right: 6px;
+    margin-right: 0.375rem;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 300;
+    color: #ff9f40;
+    background-color: transparent;
+    padding: 10px 18px;
+    padding: 0.625rem 1.125rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.paginate-bg .page-numbers.current {
+	color: #808080;
+	border-color: #808080;
+}
+
+
+.ja-product-form .checkradios-checkbox, .checkradios-radio {
+    font-size: 15px;
+    font-size: 0.9375rem;
+	width: 25px;
+    height: 25px;
+    width: 1.5625rem;
+    height: 1.5625rem;
+    margin-right: 10px;
+    margin-right: 0.625rem;
+}
+
+.ja-product-form label {
+	display: block;
+}
